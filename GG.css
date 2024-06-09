@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;https://m
+    background-image: url('background.jpg'); https://travel-akademie.cz/wp-content/uploads/2021/01/08_zajezd_vietnam_pro_kazdeho.jpg
+    background-attachment: fixed;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.content {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    /* Prispôsobte štýly pre mobilné zariadenia */
+    header {
+        font-size: 1.5em;
+    }
+    main {
+        padding: 10px;
+    }
+    .content {
+        padding: 10px;
+    }
