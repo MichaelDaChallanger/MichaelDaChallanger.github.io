@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('background.jpg'); https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2V1ampyc21sZzdha3o2dnJkYzZ5anp4Z3dxNHhtODJzNDE2c3RzMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TjSTR2sc1XcWXf4ue2/giphy.webp
+    background-attachment: fixed;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.content {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    /* Prispôsobte štýly pre mobilné zariadenia */
+    header {
+        font-size: 1.5em;
+    }
+    main {
+        padding: 10px;
+    }
+    .content {
+        padding: 10px;
+    }
